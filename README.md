@@ -1,4 +1,4 @@
-# Airbnc UI Clone iOS
+# Airbnb UI Clone iOS
 
 ## 📱 About this project
 This project it's a rebuild of screens from Airbnb in SwiftUI. Building reusable components and simples user interfaces. With beautiful animations and user experiences.
