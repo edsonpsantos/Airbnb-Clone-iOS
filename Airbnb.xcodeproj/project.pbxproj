@@ -18,6 +18,11 @@
 		2DC2939A2C09D6860028DB39 /* ListingImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC293992C09D6860028DB39 /* ListingImageCarouselView.swift */; };
 		2DC2939C2C09D8520028DB39 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC2939B2C09D8520028DB39 /* RatingView.swift */; };
 		2DC2939E2C0A05FD0028DB39 /* DestionationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC2939D2C0A05FD0028DB39 /* DestionationSearchView.swift */; };
+		2DC293A02C0A22860028DB39 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC2939F2C0A22860028DB39 /* ProfileView.swift */; };
+		2DC293A22C0A246B0028DB39 /* ProfileOptionRuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC293A12C0A246B0028DB39 /* ProfileOptionRuleView.swift */; };
+		2DC293A42C0A25840028DB39 /* WhishlistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC293A32C0A25840028DB39 /* WhishlistsView.swift */; };
+		2DC293A62C0A26C90028DB39 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC293A52C0A26C90028DB39 /* ButtonView.swift */; };
+		2DC293A82C0A27B80028DB39 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC293A72C0A27B80028DB39 /* MainTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +38,11 @@
 		2DC293992C09D6860028DB39 /* ListingImageCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingImageCarouselView.swift; sourceTree = "<group>"; };
 		2DC2939B2C09D8520028DB39 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		2DC2939D2C0A05FD0028DB39 /* DestionationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestionationSearchView.swift; sourceTree = "<group>"; };
+		2DC2939F2C0A22860028DB39 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		2DC293A12C0A246B0028DB39 /* ProfileOptionRuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileOptionRuleView.swift; sourceTree = "<group>"; };
+		2DC293A32C0A25840028DB39 /* WhishlistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhishlistsView.swift; sourceTree = "<group>"; };
+		2DC293A52C0A26C90028DB39 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		2DC293A72C0A27B80028DB39 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +105,7 @@
 				2DC293892C09BFE00028DB39 /* Profile */,
 				2DC2938A2C09BFE60028DB39 /* Root */,
 				2DC2938B2C09BFF10028DB39 /* Tabbar */,
-				2DC2938C2C09BFFE0028DB39 /* Wishilists */,
+				2DC2938C2C09BFFE0028DB39 /* Whishlists */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -158,6 +168,8 @@
 		2DC293892C09BFE00028DB39 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				2DC2939F2C0A22860028DB39 /* ProfileView.swift */,
+				2DC293A12C0A246B0028DB39 /* ProfileOptionRuleView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -172,15 +184,17 @@
 		2DC2938B2C09BFF10028DB39 /* Tabbar */ = {
 			isa = PBXGroup;
 			children = (
+				2DC293A72C0A27B80028DB39 /* MainTabView.swift */,
 			);
 			path = Tabbar;
 			sourceTree = "<group>";
 		};
-		2DC2938C2C09BFFE0028DB39 /* Wishilists */ = {
+		2DC2938C2C09BFFE0028DB39 /* Whishlists */ = {
 			isa = PBXGroup;
 			children = (
+				2DC293A32C0A25840028DB39 /* WhishlistsView.swift */,
 			);
-			path = Wishilists;
+			path = Whishlists;
 			sourceTree = "<group>";
 		};
 		2DC293982C09D6660028DB39 /* Components */ = {
@@ -188,6 +202,7 @@
 			children = (
 				2DC293992C09D6860028DB39 /* ListingImageCarouselView.swift */,
 				2DC2939B2C09D8520028DB39 /* RatingView.swift */,
+				2DC293A52C0A26C90028DB39 /* ButtonView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -264,11 +279,16 @@
 			files = (
 				2DC2939A2C09D6860028DB39 /* ListingImageCarouselView.swift in Sources */,
 				2DC2939E2C0A05FD0028DB39 /* DestionationSearchView.swift in Sources */,
+				2DC293A02C0A22860028DB39 /* ProfileView.swift in Sources */,
+				2DC293A42C0A25840028DB39 /* WhishlistsView.swift in Sources */,
 				2DC293922C09C5740028DB39 /* ListingItemView.swift in Sources */,
+				2DC293A22C0A246B0028DB39 /* ProfileOptionRuleView.swift in Sources */,
 				2DC293732C09BF010028DB39 /* ContentView.swift in Sources */,
 				2DC2939C2C09D8520028DB39 /* RatingView.swift in Sources */,
 				2DC2938E2C09C4220028DB39 /* ExploreView.swift in Sources */,
+				2DC293A62C0A26C90028DB39 /* ButtonView.swift in Sources */,
 				2DC293952C09CFB70028DB39 /* SearchAndFilterBar.swift in Sources */,
+				2DC293A82C0A27B80028DB39 /* MainTabView.swift in Sources */,
 				2DC293972C09D5B10028DB39 /* ListingDetailView.swift in Sources */,
 				2DC293712C09BF010028DB39 /* AirbnbApp.swift in Sources */,
 			);
