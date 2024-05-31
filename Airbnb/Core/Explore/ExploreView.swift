@@ -25,7 +25,7 @@ struct ExploreView: View {
                             }
                         }
                     
-                    ScrollView{
+                    ScrollView(showsIndicators: false){
                         LazyVStack(spacing: 32){
                             ForEach(0...10, id:\.self){ listing in
                                 NavigationLink(value: listing) {
