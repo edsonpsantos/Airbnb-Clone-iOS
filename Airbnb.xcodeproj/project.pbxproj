@@ -17,6 +17,7 @@
 		2DC293972C09D5B10028DB39 /* ListingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC293962C09D5B10028DB39 /* ListingDetailView.swift */; };
 		2DC2939A2C09D6860028DB39 /* ListingImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC293992C09D6860028DB39 /* ListingImageCarouselView.swift */; };
 		2DC2939C2C09D8520028DB39 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC2939B2C09D8520028DB39 /* RatingView.swift */; };
+		2DC2939E2C0A05FD0028DB39 /* DestionationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC2939D2C0A05FD0028DB39 /* DestionationSearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		2DC293962C09D5B10028DB39 /* ListingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingDetailView.swift; sourceTree = "<group>"; };
 		2DC293992C09D6860028DB39 /* ListingImageCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingImageCarouselView.swift; sourceTree = "<group>"; };
 		2DC2939B2C09D8520028DB39 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		2DC2939D2C0A05FD0028DB39 /* DestionationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestionationSearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 			children = (
 				2DC2938D2C09C4220028DB39 /* ExploreView.swift */,
 				2DC293942C09CFB70028DB39 /* SearchAndFilterBar.swift */,
+				2DC2939D2C0A05FD0028DB39 /* DestionationSearchView.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DC2939A2C09D6860028DB39 /* ListingImageCarouselView.swift in Sources */,
+				2DC2939E2C0A05FD0028DB39 /* DestionationSearchView.swift in Sources */,
 				2DC293922C09C5740028DB39 /* ListingItemView.swift in Sources */,
 				2DC293732C09BF010028DB39 /* ContentView.swift in Sources */,
 				2DC2939C2C09D8520028DB39 /* RatingView.swift in Sources */,

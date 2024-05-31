@@ -174,7 +174,7 @@ struct ListingDetailView: View {
             .padding()
         }
         .ignoresSafeArea()
-        .padding(.bottom, 72)
+        .padding(.bottom, 84)
         .overlay(alignment: .bottom) {
             VStack{
                 Divider()
