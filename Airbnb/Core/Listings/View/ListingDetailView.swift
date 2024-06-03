@@ -12,7 +12,19 @@ import MapKit
 struct ListingDetailView: View {
     
     @Environment(\.dismiss) var dismiss
+    @State private var cameraPostion: MapCameraPosition
+
     let listing: Listing
+    
+    init(listing: Listing){
+        self.listing = listing
+        
+        let region = MKCoordinateRegion(center: listing.city == "Lisbon" ? .lisbon : .oPorto,
+                                        span: MKCoordinateSpan(latitudeDelta: 0.1,
+                                                               longitudeDelta: 0.1))
+        
+        self._cameraPostion = State(initialValue: .region(region))
+    }
     
     var body: some View {
         
@@ -168,7 +180,7 @@ struct ListingDetailView: View {
                 Text("Where you'll be")
                     .font(.headline)
                 
-                Map()
+                Map(position: $cameraPostion)
                     .frame(height: 200)
                     .clipShape(RoundedRectangle(cornerRadius: 12))
             }

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2D1D43772C0DC7E80010F1F9 /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1D43762C0DC7E80010F1F9 /* ExploreViewModel.swift */; };
 		2D1D43792C0DC8450010F1F9 /* ExploreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1D43782C0DC8450010F1F9 /* ExploreService.swift */; };
+		2D1D437B2C0DD2480010F1F9 /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1D437A2C0DD2480010F1F9 /* Region.swift */; };
 		2DC293712C09BF010028DB39 /* AirbnbApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC293702C09BF010028DB39 /* AirbnbApp.swift */; };
 		2DC293732C09BF010028DB39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC293722C09BF010028DB39 /* ContentView.swift */; };
 		2DC293752C09BF030028DB39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DC293742C09BF030028DB39 /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 /* Begin PBXFileReference section */
 		2D1D43762C0DC7E80010F1F9 /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
 		2D1D43782C0DC8450010F1F9 /* ExploreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreService.swift; sourceTree = "<group>"; };
+		2D1D437A2C0DD2480010F1F9 /* Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
 		2DC2936D2C09BF010028DB39 /* Airbnb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Airbnb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DC293702C09BF010028DB39 /* AirbnbApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirbnbApp.swift; sourceTree = "<group>"; };
 		2DC293722C09BF010028DB39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				2DC293AE2C0A37230028DB39 /* DeveloperPreview.swift */,
+				2D1D437A2C0DD2480010F1F9 /* Region.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 				2DC293A22C0A246B0028DB39 /* ProfileOptionRuleView.swift in Sources */,
 				2DC293732C09BF010028DB39 /* ContentView.swift in Sources */,
 				2D1D43792C0DC8450010F1F9 /* ExploreService.swift in Sources */,
+				2D1D437B2C0DD2480010F1F9 /* Region.swift in Sources */,
 				2DC293AD2C0A31970028DB39 /* Listing.swift in Sources */,
 				2DC2939C2C09D8520028DB39 /* RatingView.swift in Sources */,
 				2D1D43772C0DC7E80010F1F9 /* ExploreViewModel.swift in Sources */,
