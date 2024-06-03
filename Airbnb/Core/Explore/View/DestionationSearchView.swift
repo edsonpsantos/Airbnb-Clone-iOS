@@ -16,9 +16,9 @@ enum DestinalSearchOption{
 
 struct DestionationSearchView: View {
     
-    
+    @ObservedObject var viewModel: ExploreViewModel
     @Binding var show: Bool
-    @State private var destination = ""
+    
     @State private var selectedOption: DestinalSearchOption = .location
     @State private var startDate = Date()
     @State private var endDate = Date()
@@ -29,6 +29,7 @@ struct DestionationSearchView: View {
             HStack {
                 Button(action: {
                     withAnimation(.snappy){
+                        viewModel.updateListingForLocation()
                         show.toggle()
                     }
                 }, label: {
@@ -38,9 +39,10 @@ struct DestionationSearchView: View {
             })
                 Spacer()
                 
-                if !destination.isEmpty {
+                if !viewModel.searchLocation.isEmpty {
                     Button("Clear"){
-                        destination = ""
+                        viewModel.searchLocation = ""
+                        viewModel.updateListingForLocation()
                     }
                     .foregroundStyle(.black)
                     .font(.subheadline)
@@ -60,8 +62,12 @@ struct DestionationSearchView: View {
                         Image(systemName: "magnifyingglass")
                             .imageScale(.small)
                         
-                        TextField("Search destinations", text: $destination)
+                        TextField("Search destinations", text: $viewModel.searchLocation)
                             .font(.subheadline)
+                            .onSubmit {
+                                viewModel.updateListingForLocation()
+                                show.toggle()
+                            }
                     }
                     .frame(height: 44)
                     .padding(.horizontal)
@@ -139,7 +145,7 @@ struct DestionationSearchView: View {
 }
 
 #Preview {
-    DestionationSearchView(show: .constant(false))
+    DestionationSearchView(viewModel: ExploreViewModel(service: ExploreService()), show: .constant(false))
 }
 
 struct CollapsedPickerView: View {
