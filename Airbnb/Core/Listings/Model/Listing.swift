@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Listing: Identifiable, Codable{
+struct Listing: Identifiable, Codable, Hashable{
     
     let id: String
     let ownerUId: String
@@ -37,7 +37,7 @@ enum ListingFeatures: Int, Codable, Identifiable, Hashable {
     case selfCheckIn
     case superHost
     
-    var imaName: String {
+    var imageName: String {
         switch self {
         case .selfCheckIn: return "door.left.hand.open"
         case .superHost: return "medal"
@@ -87,12 +87,12 @@ enum ListingAmenities: Int, Codable, Identifiable, Hashable{
     
     var imageName: String {
         switch self{
-        case .pool: return "figure.pool.swin"
+        case .pool: return "figure.pool.swim"
         case .kitchen: return "fork.knife"
         case .wifi: return "wifi"
         case .laundry: return "washer"
         case .tv: return "tv"
-        case .alarmSystem: return "checkedboard.shield"
+        case .alarmSystem: return "shield.checkered"
         case .office: return "pencil.and.ruler.fill"
         case .balcony: return "building"
         }

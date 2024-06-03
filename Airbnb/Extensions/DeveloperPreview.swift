@@ -9,6 +9,8 @@ import Foundation
 
 class DeveloperPreview {
     
+    static let shared = DeveloperPreview()
+    
     var listings: [Listing] = [
         .init(
             id: NSUUID().uuidString,
@@ -69,7 +71,7 @@ class DeveloperPreview {
             city: "Lisbon",
             state: "Lisbon",
             title: "Lisbon TinyHouse",
-            rating: 4.88,
+            rating: 4.5,
             features: [.selfCheckIn, .superHost],
             amenities: [.kitchen, .wifi, .tv, .alarmSystem],
             type: .tinyHouse),
@@ -90,7 +92,7 @@ class DeveloperPreview {
             city: "Lisbon",
             state: "Lisbon",
             title: "Lisbon Village",
-            rating: 4.88,
+            rating: 4.2,
             features: [.selfCheckIn, .superHost],
             amenities: [.kitchen, .wifi, .tv, .pool, .alarmSystem],
             type: .villa),
@@ -111,7 +113,7 @@ class DeveloperPreview {
             city: "Lisbon",
             state: "Lisbon",
             title: "Lisbon MyVillage",
-            rating: 4.88,
+            rating: 4.65,
             features: [.selfCheckIn, .superHost],
             amenities: [.kitchen, .wifi, .tv, .office, .pool, .balcony,  .alarmSystem],
             type: .villa),
