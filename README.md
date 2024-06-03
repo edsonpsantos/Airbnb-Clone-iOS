@@ -19,8 +19,14 @@ The repository contains all code based on an MVVM architecture pattern to organi
 * Good practices ( Save coding -> if let and guard statements to avoid crashes )
 
 ##  📱 App screens:
+![Home Screen](https://github.com/edsonpsantos/images/blob/main/AirbnbClone/HomeScreen.png)
+![Detail Screen](https://github.com/edsonpsantos/images/blob/main/AirbnbClone/DetailScreen1.png)
+![Empty Portfolio Screen](https://github.com/edsonpsantos/images/blob/main/AirbnbClone/DetailScreen2.png)
+![Portfolio Screen](https://github.com/edsonpsantos/images/blob/main/AirbnbClone/WishlistScreen.png)
+![Edit Portfolio Screen](https://github.com/edsonpsantos/images/blob/main/AirbnbClone/ProfileScreen.png)
 
-As soon as I finish the project 😅
+https://github.com/edsonpsantos/Airbnb-Clone-iOS/assets/24628289/287bcdb3-1016-4965-bab5-9b99e58b0263
+
 
 
 🙏🏽 Thanks for your attention! 
